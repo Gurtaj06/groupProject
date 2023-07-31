@@ -17,7 +17,7 @@ nav{
     font-size: large;
     padding-bottom: 500px;
     margin: 25px;
-    background-position: center;
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -37,6 +37,7 @@ a{
 
 #logo{
     flex: 6;
+    font-size: 25px;
     text-align: start;
 }
 .links{
@@ -66,6 +67,12 @@ a{
     flex: 1;
     display: flex;
 }
+.container p{
+    font-family: Abel;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 120px 0 0 22px;
+}
 .box{
     flex: 1;
     background-color: #e5f0e3;
@@ -85,7 +92,7 @@ a{
 
 .gallery{
    background-color: aliceblue;
-   padding: 4%;
+   padding: 2%;
     margin: 25px;
     border-radius: 25px;
 }
@@ -94,14 +101,12 @@ a{
     letter-spacing: 2px;
     word-spacing: 4px;
 }
-.gallery h1{
-    font-size: 50px;
-}
 .wrapper{
     display: flex;
 }
 .card{
     margin: 20px;
+    flex: 1;
     font-weight: bold;
     font-family:  Helvetica, sans-serif;
     font-size: 20px;
@@ -118,7 +123,91 @@ a{
 
 .card img{
     border-radius: 25px;
-    flex: 1;
-    width: 100%;
+    
+    width: 400px;
     justify-content: space-around;
 }
+
+.footer{
+    margin: 25px;
+}
+.footer p{
+    margin-left: 30px;
+}
+.footer a{
+    padding: 0;
+    color:navy;
+}
+.footer h2{
+    font-weight: bold;
+    color:  rgb(34, 119, 255);
+    font-size: 35px;
+}
+.footer h3{
+    font-family: Abel;
+    font-weight: bold;
+    margin: 25px;
+    font-size: 25px;
+}
+
+hr{
+    margin: 60px 0 60px 0;
+}
+
+table img{
+    width: 25rem; 
+    border-radius: 22px;
+    margin: 20px;
+}
+.table h3{
+    margin-left: 30px;
+    text-align: left;
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(34, 119, 255);
+}
+.gallery{
+    flex: 2;
+}
+.contact{
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    margin-left: 25px;
+    border-radius:25px ;
+    justify-content: space-around;
+    flex:2.7;
+    
+    
+    }
+    .contact h2{
+        text-align: center;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        color: blue;
+    }
+    .contact p{
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: -20px;
+    }
+    .contact a{
+        color: blue;
+    }
+    .contact h4{
+        margin-left:20px;
+    }
+    
+    aside{
+        
+        flex: 1;
+        float: right;
+        margin-right: 15px;
+    }
+    #box3{
+        background-color: #fcf5c7;
+    }
+    .cont{
+        display: flex;
+    }
+    
